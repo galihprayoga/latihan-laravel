@@ -14,6 +14,9 @@
         <li class="nav-item">
             <a class="nav-link text-light" href="#">Profil</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="{{ route('logout') }}">Logout</a>
+        </li>
     </ul>
 
 <div class="container">
